@@ -1,0 +1,16 @@
+{
+  "name": "group4_testing",
+  "version": "1.0.0",
+  "description": "src for testing",
+  "main": "index.js",
+  "scripts": {
+    "test:jasmine": "jasmine --random=false jasmine.spec.js"
+  },
+  "author": "levanhhien (ismhac)",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^5.1.0",
+    "nodemon": "^3.0.1",
+    "puppeteer": "^21.5.2"
+  }
+}
