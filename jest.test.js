@@ -1,8 +1,5 @@
 const puppeteer = require('puppeteer');
 
-jasmine.DEFAULT_TIMEOUT_INTERVAL = 20000;
-
-
 // test case: 
 var users = [
     { username: "admin@gmail.com", password: "123456" },
@@ -47,11 +44,11 @@ let results = [];
 
 users.forEach((user, index) => {
     describe(`Test login with username ${user.username} and password ${user.password}`, () => {
-        it('User can login successfully', async () => {
+        test('User can login successfully', async () => {
             let result = await login(user.username, user.password);
             result.browser.close();
-            expect(result.status).toBe(201);
             results.push({ 'User': index + 1, 'Expected Status': 201, 'Actual Status': result.status });
+            expect(result.status).toBe(201);
         });
     });
 });
@@ -60,8 +57,3 @@ afterAll(() => {
     console.log("\n");
     console.table(results);
 });
-
-
-
-
-
