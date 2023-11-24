@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test:jasmine": "jasmine --random=false jasmine.spec.js",
-    "test:jest": "jest jest.test.js"
+    "test:jest": "jest jest.test.js",
+    "test:mocha": "mocha mocha.test.js"
   },
   "author": "levanhhien (ismhac)",
   "license": "ISC",
   "dependencies": {
     "jasmine": "^5.1.0",
     "jest": "^29.7.0",
+    "mocha": "^10.2.0",
     "nodemon": "^3.0.1",
     "puppeteer": "^21.5.2"
   }
