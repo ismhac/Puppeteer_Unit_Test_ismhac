@@ -2,14 +2,30 @@
 ---
 ## How to install and run project
 1. Clone project
-run: ```bash git clone https://github.com/ismhac/testing-puppeteer.git```
+run:
+```bash
+git clone https://github.com/ismhac/testing-puppeteer.git
+```
 2. Install project 
-run: ```bash npm install```
+run:
+```bash
+npm install
+```
 3. Run test case
 - Test with Puppeteer and Jasmine:
-run: ```bash npm run test:jasmine```
+`run:
+```bash
+npm run test:jasmine
+```
+`
 - Test with Puppeteer and Jest: 
-run: ```bash npm run test:jest```
+run:
+```
+bash npm run test:jest
+```
 - Test with Puppeteer and Mocha:
-run: ```bash npm run test:mocha```
+run:
+```bash
+npm run test:mocha
+```
 
