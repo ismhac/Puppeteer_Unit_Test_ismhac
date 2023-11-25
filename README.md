@@ -7,24 +7,19 @@ run:
 git clone https://github.com/ismhac/testing-puppeteer.git
 ```
 2. Install project 
-run:
 ```bash
 npm install
 ```
 3. Run test case
-- Test with Puppeteer and Jasmine:
-`run:
+- Test with Puppeteer and Jasmine
 ```bash
 npm run test:jasmine
 ```
-`
-- Test with Puppeteer and Jest: 
-run:
+- Test with Puppeteer and Jest
 ```
 bash npm run test:jest
 ```
-- Test with Puppeteer and Mocha:
-run:
+- Test with Puppeteer and Mocha
 ```bash
 npm run test:mocha
 ```
