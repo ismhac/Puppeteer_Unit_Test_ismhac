@@ -14,6 +14,8 @@ var users = [
     { username: "dien123456789@gmail.com", password: "123456789" },
     { username: "admin@gmail.com", password: "12345" },
     { username: "dien123456789@gmail.com", password: "123456789" },
+    { username: "dien123456789@gmail.com", password: "123456789" },
+    { username: "dien123456789@gmail.com", password: "123456789" },
 ];
 
 //
