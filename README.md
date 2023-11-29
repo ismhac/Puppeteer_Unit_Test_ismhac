@@ -1,6 +1,7 @@
-# Hello ! This is project demo testing with Puppeteer - Jasmine - Jest - Mocha
+# Hi ! I'm ismhac (Le van Hien)
+## This is project demo testing using Puppeteer - Jasmine - Jest - Mocha
 ---
-## How to install and run project
+###  How to install ? 
 1. Clone project
 run:
 ```bash
@@ -10,17 +11,20 @@ git clone https://github.com/ismhac/testing-puppeteer.git
 ```bash
 npm install
 ```
-3. Run test case
-- Test with Puppeteer and Jasmine
+---
+### How to run ?
+1. Test with Puppeteer and Jasmine
 ```bash
 npm run test:jasmine
 ```
-- Test with Puppeteer and Jest
+2. Test with Puppeteer and Jest
 ```
 bash npm run test:jest
 ```
-- Test with Puppeteer and Mocha
+3. Test with Puppeteer and Mocha
 ```bash
 npm run test:mocha
 ```
+---
+### THANK YOU SO MUCH ! :blush:
 
